@@ -24,14 +24,14 @@ public class Operations {
     }
 
     public String getZodiacForDate(String birthDate, List<ZodiacInfo> zodiacList){
-        int birthDateDay=Integer.parseInt(birthDate.split("/")[0]);
-        int birthDateMonth=Integer.parseInt(birthDate.split("/")[1]);
+        int birthDateDay=Integer.parseInt(birthDate.split("/")[1]);
+        int birthDateMonth=Integer.parseInt(birthDate.split("/")[0]);
         for(int index=0;index<zodiacList.size();index++) {
 
-            int zodiacStartDateDay = Integer.parseInt(zodiacList.get(index).getStartDate().split("/")[0]);
-            int zodiacStartDateMonth = Integer.parseInt(zodiacList.get(index).getStartDate().split("/")[1]);
-            int zodiacEndDateDay = Integer.parseInt(zodiacList.get(index).getEndDate().split("/")[0]);
-            int zodiacEndDateMonth = Integer.parseInt(zodiacList.get(index).getEndDate().split("/")[1]);
+            int zodiacStartDateDay = Integer.parseInt(zodiacList.get(index).getStartDate().split("/")[1]);
+            int zodiacStartDateMonth = Integer.parseInt(zodiacList.get(index).getStartDate().split("/")[0]);
+            int zodiacEndDateDay = Integer.parseInt(zodiacList.get(index).getEndDate().split("/")[1]);
+            int zodiacEndDateMonth = Integer.parseInt(zodiacList.get(index).getEndDate().split("/")[0]);
 
             if(birthDateMonth>zodiacStartDateMonth && birthDateMonth<zodiacEndDateMonth)
             {
