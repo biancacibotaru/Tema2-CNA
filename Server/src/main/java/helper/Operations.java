@@ -33,10 +33,7 @@ public class Operations {
             int zodiacEndDateDay = Integer.parseInt(zodiacList.get(index).getEndDate().split("/")[1]);
             int zodiacEndDateMonth = Integer.parseInt(zodiacList.get(index).getEndDate().split("/")[0]);
 
-            if(birthDateMonth>zodiacStartDateMonth && birthDateMonth<zodiacEndDateMonth)
-            {
-                return zodiacList.get(index).getName();
-            }else if(birthDateMonth==zodiacStartDateMonth && birthDateDay>=zodiacStartDateDay)
+           if(birthDateMonth==zodiacStartDateMonth && birthDateDay>=zodiacStartDateDay)
             {
                 return zodiacList.get(index).getName();
             } else if(birthDateMonth==zodiacEndDateMonth && birthDateDay<=zodiacEndDateDay){

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47edcd54-beeb-49e7-b9d3-b9a0fda13797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zodiac.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helper/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Operations.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +51,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -76,7 +65,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618851516924</updated>
-      <workItem from="1618851518480" duration="3745000" />
+      <workItem from="1618851518480" duration="3978000" />
+      <workItem from="1618903238164" duration="2134000" />
+      <workItem from="1618905428196" duration="195000" />
     </task>
     <servers />
   </component>
@@ -93,5 +84,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
